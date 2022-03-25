@@ -16,10 +16,10 @@ public class AddToCartTest extends BaseClass{
     public static void addToCart() throws Exception{
         driver.get("https://www.saucedemo.com/");
         Thread.sleep(1000);
-        String path = "C:\\Users\\tdhurwe\\Documents\\maven project\\src\\Book1.xlsx";
-        FileInputStream file = new FileInputStream(path);
-        XSSFWorkbook workbook = new XSSFWorkbook(file);
-        XSSFSheet sheet = workbook.getSheetAt(0);
+//        String path = "C:\\Users\\tdhurwe\\Documents\\maven project\\src\\Book1.xlsx";
+//        FileInputStream file = new FileInputStream(path);
+//        XSSFWorkbook workbook = new XSSFWorkbook(file);
+        XSSFSheet sheet = loadSheet();
         XSSFRow row = null;
         XSSFCell cell = null;
         String username = null;
@@ -37,17 +37,9 @@ public class AddToCartTest extends BaseClass{
         driver.findElement(By.xpath("//*[@id='login-button']")).click();
         Thread.sleep(4000);
         System.out.println("working");
-        List<WebElement> prices = driver.findElements(By.xpath("//*[@class='inventory_item_price']"));
-        int num;
-        for(int i = 0; i< prices.size(); i++){
-            Float price = Float.parseFloat(prices.get(i).getText().substring(1));
-            if(price > maxPrice){
-                maxPrice = price;
-                num = i;
-            }
-        }
+        driver.findElement(By.xpath("(//*[text()='Add to cart'])[4]")).click(); // hard coded part
 //        (//div[@class='inventory_item_price'])[6]
 //         (//button[text()='Add to cart'])[1]
-        driver.findElement(By.xpath("(//div[@class='inventory_item_price'])['']"));
+//        driver.findElement(By.xpath("(//div[@class='inventory_item_price'])['']"));
     }
 }

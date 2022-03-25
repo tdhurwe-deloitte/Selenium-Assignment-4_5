@@ -16,10 +16,7 @@ public class LoginTest extends BaseClass {
     public static void loginValidation() throws Exception{
         driver.get("https://www.saucedemo.com/");
         Thread.sleep(1000);
-        String path = "C:\\Users\\tdhurwe\\Documents\\maven project\\src\\Book1.xlsx";
-        FileInputStream file = new FileInputStream(path);
-        XSSFWorkbook workbook = new XSSFWorkbook(file);
-        XSSFSheet sheet = workbook.getSheetAt(0);
+        XSSFSheet sheet = loadSheet();
         XSSFRow row = null;
         XSSFCell cell = null;
         String username = null;

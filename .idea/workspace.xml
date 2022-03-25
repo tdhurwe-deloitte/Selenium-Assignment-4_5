@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee55512b-08da-4171-bc77-0135a0a00659" name="Changes" comment="" />
+    <list default="true" id="ee55512b-08da-4171-bc77-0135a0a00659" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MiniAssignment4/AddToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MiniAssignment4/AddToCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MiniAssignment4/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MiniAssignment4/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MiniAssignment4/ClickCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MiniAssignment4/ClickCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MiniAssignment4/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MiniAssignment4/LoginTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +23,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26pE8pXDiFpzpaWLV0WMyoD72Et" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Selenium assignment" />
   </component>
-  <component name="RunManager" selected="TestNG.ClickCartTest">
+  <component name="RunManager" selected="TestNG.AddToCartTest.addToCart">
     <configuration name="AddToCartTest.addToCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mvnProject" />
       <extension name="coverage">
@@ -114,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddToCartTest.addToCart" />
+        <item itemvalue="TestNG.LoginTest.loginValidation" />
         <item itemvalue="TestNG.ClickCartTest" />
         <item itemvalue="TestNG.ClickCartTest.clickCart" />
-        <item itemvalue="TestNG.AddToCartTest.addToCart" />
         <item itemvalue="TestNG.C:/Users/tdhurwe/Documents/maven project/testng.xml" />
-        <item itemvalue="TestNG.LoginTest.loginValidation" />
       </list>
     </recent_temporary>
   </component>
