@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="src.test.MiniAssignment4">
+    <test name="Login Test">
+        <classes>
+            <class name="MiniAssignment4.LoginTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
